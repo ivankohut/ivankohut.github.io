@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>V tom malom meste Betlehem</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 326</h2>
+  <h3>V tom malom meste Betlehem</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>V tom malom meste Betlehem,</p>
+        <p>Sväté písmo hovorí,</p>
+        <p>stalo sa, že Márii</p>
+        <p>sa Ježiš narodil.</p>
+      </div>
+      <div class="slide">
+        <p>Aj hviezdu ľudia videli,</p>
+        <p>ako sa nad tým mestom skvie</p>
+        <p>a anjelský hlas počuli</p>
+        <p>a žasli, ako to znie.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Počuť chóry anjelské,</p>
+        <p>každý nech stíši hlas,</p>
+        <p>veď nový kráľ sa narodil,</p>
+        <p>nech žije každý z nás.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Tam Jozef spolu s Máriou</p>
+        <p>túžili v Betleheme byť,</p>
+        <p>kde pred všetkými na chvíľu</p>
+        <p>chceli svoje dieťa skryť.</p>
+      </div>
+      <div class="slide">
+        <p>Zúfalí a celkom bezradní</p>
+        <p>našli miesto v chlieve tam</p>
+        <p>a ani zdania nemali,</p>
+        <p>že tak stal sa z chlieva chrám.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Počuť chóry anjelské,</p>
+        <p>každý nech stíši hlas,</p>
+        <p>nech počujeme spoločne,</p>
+        <p>čo vraví vianočný čas,</p>
+        <p>čo vraví vianočný čas.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+</table>
+
+</body>
+</html>

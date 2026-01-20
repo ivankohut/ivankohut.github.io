@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Česť, požehnanie</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 32</h2>
+  <h3>Česť, požehnanie</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Česť, požehnanie,</p>
+        <p>moc, velebenie,</p>
+        <p>sláva patrí Tebe, Pane.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Každé stvorenie</p>
+        <p>skloní sa v ten deň</p>
+        <p>tvárou v tvár,</p>
+        <p>keď Teba uzrie.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Nebo a zem, vesmír celý</p>
+        <p>vládu Tvoju uzná,</p>
+        <p>kolená si každý</p>
+        <p>skloní v úcte.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ty jediný, vyvýšený, večný,</p>
+        <p>od vekov si naveky,</p>
+        <p>ó, kráľov Kráľ.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ty vládneš na nebi aj na zemi,</p>
+        <p>sláva Tebe, kráľov Kráľ.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>A nikde Ti nie je nik podobný,</p>
+        <p>sláva Tebe, kráľov Kráľ.</p>
+      </div>
+    </td>
+    <td>Sloha 6</td>
+  </tr>
+</table>
+
+</body>
+</html>

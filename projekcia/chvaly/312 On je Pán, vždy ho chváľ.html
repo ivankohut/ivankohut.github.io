@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>On je Pán, vždy ho chváľ</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 312</h2>
+  <h3>On je Pán, vždy ho chváľ</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>On je Pán, vždy ho chváľ,</p>
+        <p>z celej duše chváľ</p>
+        <p>najväčšie meno z mien.</p>
+        <p>Zo všetkých síl ho chváľ, duša, chváľ,</p>
+        <p>v Ňom naveky nieto zmien.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Keď vychádza slnko na oblohu,</p>
+        <p>nech nová pieseň zaznie zas.</p>
+        <p>Či veselo kráčaš, či ideš s hlavou dolu,</p>
+        <p>na pieseň oslavnú je práve čas.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Si najväčší v svojom dobrodení</p>
+        <p>a vedieš nás v rukách láskavých.</p>
+        <p>Pre dobrotu Tvoju sa každé srdce mení</p>
+        <p>a spieva pieseň v tónoch nádherných.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Keď príde deň a môj život skončí</p>
+        <p>a budem počuť ten známy hlas,</p>
+        <p>ja s anjelmi do Tvojich komnát vkročím</p>
+        <p>a novú pieseň budem spievať zas.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+</table>
+
+</body>
+</html>

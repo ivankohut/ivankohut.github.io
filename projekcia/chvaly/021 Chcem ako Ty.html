@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Chcem ako Ty</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 21</h2>
+  <h3>Chcem ako Ty</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Náš Pán, ja túžim</p>
+        <p>len pred Tebou stáť.</p>
+        <p>Náš Pán, náš Kráľ,</p>
+        <p>máš ma tak rád.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Si láska, si nádej,</p>
+        <p>si vzácny pre nás.</p>
+        <p>Ja stále Ti spievam,</p>
+        <p>hodný si chvál.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ty si Ten, ja viem,</p>
+        <p>že život si za mňa dal.</p>
+        <p>Ty si Ten, ja viem,</p>
+        <p>ktorý sa obetoval.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ty si Ten ja viem,</p>
+        <p>že máš ma rád.</p>
+        <p>A ja chcem sa stále</p>
+        <p>na Teba podobať.</p>
+      </div>
+    </td>
+    <td>Sloha 7</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Chcem ako Ty ísť</p>
+        <p>a hlásať Tvoju zvesť.</p>
+        <p>Chcem ako Ty ísť</p>
+        <p>a Tvoju lásku niesť.</p>
+      </div>
+    </td>
+    <td>Sloha 9</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Chcem ako Ty ľudí tak milovať,</p>
+        <p>žeby som vedel</p>
+        <p>z lásky za nich život dať.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+</table>
+
+</body>
+</html>

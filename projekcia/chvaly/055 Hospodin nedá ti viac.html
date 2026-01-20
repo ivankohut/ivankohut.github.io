@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Hospodin nedá ti viac</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 55</h2>
+  <h3>Hospodin nedá ti viac</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Hospodin nedá Ti viac,</p>
+        <p>viac než dokážeš zniesť,</p>
+        <p>pretože rád ťa má.</p>
+      </div>
+      <div class="slide">
+        <p>V čase skúšok a bied</p>
+        <p>k Nemu obráť svoj zrak,</p>
+        <p>On ruku ti podá.</p>
+      </div>
+      <div class="slide">
+        <p>Zo smútku pozdvihne ťa</p>
+        <p>a vráti úsmev na tvár,</p>
+        <p>slzy z očí zotrie.</p>
+      </div>
+      <div class="slide">
+        <p>Duchom svojím občerství,</p>
+        <p>istotu do srdca dá,</p>
+        <p>že nad tebou vždy bdie.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Preto chváľ Pána, chváľ,</p>
+        <p>aj keď síl na to nemáš.</p>
+        <p>Duši tvojej rozumie,</p>
+        <p>o všetkých trápeniach vie.</p>
+      </div>
+      <div class="slide">
+        <p>Zlož bremená mu k nohám,</p>
+        <p>On milovať ťa naučí,</p>
+        <p>rozdávať lásku aj tam,</p>
+        <p>kde cit už nestačí.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Boh mocnejší je než ten,</p>
+        <p>čo iba dočasne vo svete</p>
+        <p>vládu má.</p>
+      </div>
+      <div class="slide">
+        <p>Rozsieva nenávisť, hnev,</p>
+        <p>chce zničiť lásku</p>
+        <p>a k hriechu ťa navádza.</p>
+      </div>
+      <div class="slide">
+        <p>Poddaj sa pod Božiu moc,</p>
+        <p>každý boj na kolenách</p>
+        <p>budeš vyhrávať.</p>
+      </div>
+      <div class="slide">
+        <p>Uvidíš veci veľké,</p>
+        <p>milosť a požehnanie</p>
+        <p>budú ťa sprevádzať.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

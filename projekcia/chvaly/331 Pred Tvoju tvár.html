@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Pred Tvoju tvár</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 331</h2>
+  <h3>Pred Tvoju tvár</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Pred Tvoju tvár, môj Ježiš,</p>
+        <p>prichádzam s tým, čo som a čo mám.</p>
+        <p>Ku Tvojim nohám s bázňou</p>
+        <p>skladám svoj hriech a Tebe sa vzdám.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ježiš, skláňam sa v úcte,</p>
+        <p>Ježiš, môj slávny kráľ.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>V Tvojej blízkosti, môj Pán,</p>
+        <p>sa stráca moja pýcha</p>
+        <p>a ja milosť túžim nájsť,</p>
+        <p>už po stýkrát.</p>
+      </div>
+      <div class="slide">
+        <p>Moje vnútro povstáva,</p>
+        <p>Tvoju prítomnosť keď dýcham,</p>
+        <p>Tebe lásku vyznávam.</p>
+        <p>Mám Ťa rád.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Aj keď Ťa nevidím</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 4</h2>
+  <h3>Aj keď Ťa nevidím</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Aj keď Ťa nevidím,</p>
+        <p>viem, že si tu,</p>
+        <p>aj keď Ťa necítim,</p>
+        <p>mám istotu.</p>
+      </div>
+      <div class="slide">
+        <p>V smelej dôvere</p>
+        <p>kráčam vo viere každý deň.</p>
+      </div>
+      <div class="slide">
+        <p>Aj keď zvádzam dnes</p>
+        <p>boj so svetom,</p>
+        <p>aj keď nevidím</p>
+        <p>hneď víťazstvo.</p>
+      </div>
+      <div class="slide">
+        <p>V smelej dôvere</p>
+        <p>kráčam vo viere každý deň.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>/: Nemusím zlého sa báť. :/</p>
+        <p>/: V smelej dôvere</p>
+        <p>kráčam vo viere. :/</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Aj keď temnota zastrie zrak,</p>
+        <p>aj keď nepriateľ ma oblieha.</p>
+      </div>
+      <div class="slide">
+        <p>V smelej dôvere</p>
+        <p>kráčam vo viere každý deň.</p>
+      </div>
+      <div class="slide">
+        <p>Aj keď ma obkľúči</p>
+        <p>a zovrie strach,</p>
+        <p>vždy Ježiš zvíťazí,</p>
+        <p>má ma v rukách.</p>
+      </div>
+      <div class="slide">
+        <p>V smelej dôvere</p>
+        <p>kráčam vo viere každý deň.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

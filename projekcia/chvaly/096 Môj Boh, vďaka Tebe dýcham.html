@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Môj Boh, vďaka Tebe dýcham</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 96</h2>
+  <h3>Môj Boh, vďaka Tebe dýcham</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Môj Boh, vďaka Tebe dýcham,</p>
+        <p>pre Teba tu som.</p>
+        <p>A viem, láskou si ma získal,</p>
+        <p>k sebe priviedol.</p>
+      </div>
+      <div class="slide">
+        <p>Smútok je preč,</p>
+        <p>šťastím ma napĺňaš,</p>
+        <p>učíš ma láskou žiť.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Tvoja láska je silnejšia než vietor,</p>
+        <p>ona vyššia je než najvyšší štít.</p>
+        <p>Hlbšia je než dno oceánov,</p>
+        <p>zmenila môj svet.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+</table>
+
+</body>
+</html>

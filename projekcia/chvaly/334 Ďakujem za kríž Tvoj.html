@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Ďakujem za kríž Tvoj</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 334</h2>
+  <h3>Ďakujem za kríž Tvoj</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ďakujem za kríž Tvoj,</p>
+        <p>za cenu krvi preliatej.</p>
+        <p>Splatil si môj dlh, môj hriech,</p>
+        <p>v láske prišiel k nám, večný život mám.</p>
+      </div>
+      <div class="slide">
+        <p>Ďakujem za náruč,</p>
+        <p>za dotyk Tvojich vzácnych rúk.</p>
+        <p>Ty si môj hriech očistil, prijal si ma.</p>
+        <p>Ďakujem, že máš ma rád.</p>
+      </div>
+      <div class="slide">
+        <p>Hoden je náš Pán, Jemu patrí trón,</p>
+        <p>najdrahší Syn zomrel za nás</p>
+        <p>a dnes vládne nám!</p>
+      </div>
+      <div class="slide">
+        <p>Buď vyvýšený, Ježiš, Syn Boží,</p>
+        <p>len ten klinec bol môj vlastný hriech,</p>
+        <p>hoden je náš Pán,</p>
+        <p>hoden je náš Pán.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Ty si Boh, ktorý vládne</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 220</h2>
+  <h3>Ty si Boh, ktorý vládne</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ty si Boh, ktorý</p>
+        <p>vládne na nebi,</p>
+        <p>Ty si Boh, ktorý</p>
+        <p>vládne na Zemi.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Kto Ťa oslávi,</p>
+        <p>kto Ťa vyvýši,</p>
+        <p>kto Ti chválu vzdá</p>
+        <p>ak nie my?</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ja Ťa oslávim,</p>
+        <p>ja Ťa vyvýšim,</p>
+        <p>ja Ti chválu vzdám,</p>
+        <p>Ježiš môj.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ty si ten mocný Kráľ.</p>
+        <p>El Shaddai, Adonai,</p>
+        <p>ochranca maličkých,</p>
+        <p>zástanca chudobných.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ľúbiš ma nežne,</p>
+        <p>nevtieraš sa mi,</p>
+        <p>ani nečakáš,</p>
+        <p>kým budeme sami.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Dotýkaš sa v hĺbke</p>
+        <p>viac než to chápem,</p>
+        <p>chrániš mi chrbát,</p>
+        <p>s Tebou znovu vládzem.</p>
+      </div>
+    </td>
+    <td>Sloha 6</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Haleluja, haleluja, haleluja,</p>
+        <p>Ty si Boh.</p>
+      </div>
+    </td>
+    <td>Sloha 7</td>
+  </tr>
+</table>
+
+</body>
+</html>

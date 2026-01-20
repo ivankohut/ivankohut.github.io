@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Zvelebený buď</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 262</h2>
+  <h3>Zvelebený buď</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Zvelebený buď</p>
+        <p>tam, kde kraj medom oplýva</p>
+        <p>tam, kde rieky vždy hojné sú,</p>
+        <p>zvelebený Pán.</p>
+      </div>
+      <div class="slide">
+        <p>Zvelebený buď,</p>
+        <p>aj keď v púšti sa nachádzam</p>
+        <p>aj keď kráčam sám v pustinách,</p>
+        <p>zvelebený Pán.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Každú milosť, čo mi dávaš,</p>
+        <p>vyspievam rád.</p>
+        <p>Aj keď tma ma obopína</p>
+        <p>ja zavolám:</p>
+      </div>
+    </td>
+    <td>Refrén 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Zvelebený buď, Pane náš,</p>
+        <p>zvelebený Pán,</p>
+        <p>zvelebený buď, Pane náš,</p>
+        <p>požehnané, slávne meno máš.</p>
+      </div>
+    </td>
+    <td>Refrén 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Zvelebený buď,</p>
+        <p>keď ma lúč slnka zohrieva</p>
+        <p>keď je svet krásny bez tieňa,</p>
+        <p>zvelebený Pán.</p>
+      </div>
+      <div class="slide">
+        <p>Zvelebený buď,</p>
+        <p>aj na púti, čo ťažká je</p>
+        <p>aj keď obetu prinášam,</p>
+        <p>zvelebený Pán.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Máš právo dať aj vziať,</p>
+        <p>máš právo dať aj vziať</p>
+        <p>ja stále spievam rád,</p>
+        <p>zvelebený Pán.</p>
+      </div>
+    </td>
+    <td>Prechod</td>
+  </tr>
+</table>
+
+</body>
+</html>

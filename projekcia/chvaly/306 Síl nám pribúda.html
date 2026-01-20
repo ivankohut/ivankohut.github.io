@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Síl nám pribúda</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 306</h2>
+  <h3>Síl nám pribúda</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Síl nám pribúda,</p>
+        <p>keď na Teba čakáme,</p>
+        <p>keď na Teba čakáme,</p>
+        <p>keď Ťa čakáme.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Si Boh, môj večný Vládca,</p>
+        <p>nádej a mocná spása.</p>
+        <p>Si svätý, nekonečný Kráľ,</p>
+        <p>si stále živý Boh.</p>
+        <p>Ty neustávaš, neusínaš.</p>
+      </div>
+      <div class="slide">
+        <p>Ty sám ochrániš maličkých,</p>
+        <p>potešíš plačúcich,</p>
+        <p>na krídlach orlích</p>
+        <p>k výškam dvíhaš nás.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+</table>
+
+</body>
+</html>

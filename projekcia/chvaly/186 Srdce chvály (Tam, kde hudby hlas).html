@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Srdce chvály</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 186</h2>
+  <h3>Srdce chvály</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Tam, kde hudby hlas</p>
+        <p>stráca svoj jas</p>
+        <p>a ja stojím sám.</p>
+      </div>
+      <div class="slide">
+        <p>Tam pred Tebou, Pán,</p>
+        <p>túžim vzácny dar</p>
+        <p>Tvojmu srdcu dať.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Chcem priniesť viac</p>
+        <p>ako len pieseň ľubozvučnú,</p>
+        <p>o pieseň nežiadaš ma.</p>
+      </div>
+      <div class="slide">
+        <p>Ty skúmaš hlbiny sŕdc</p>
+        <p>a pred Tebou, môj Boh,</p>
+        <p>je všetko odhalené.</p>
+      </div>
+    </td>
+    <td>Predrefrén</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ja srdce chvály vždy</p>
+        <p>túžim niesť Ti,</p>
+        <p>Ty hoden si sám vziať</p>
+        <p>chválu a česť, Ježiš.</p>
+      </div>
+      <div class="slide">
+        <p>Je mi tak ľúto,</p>
+        <p>keď vzdialený som,</p>
+        <p>Ty hoden si sám vziať</p>
+        <p>chválu a česť, Ježiš.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Pane, vzácny si,</p>
+        <p>no nik dať nevie to,</p>
+        <p>čoho hoden si.</p>
+      </div>
+      <div class="slide">
+        <p>Hoc aj biedny som,</p>
+        <p>všetko patrí Ti,</p>
+        <p>môjho žitia dych.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Chcem priniesť viac ako len,</p>
+        <p>viac ako pieseň, Tebe môj Pán.</p>
+        <p>Chcem priniesť viac ako len,</p>
+        <p>viac ako pieseň, môj Boh.</p>
+      </div>
+    </td>
+    <td>Prechod 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ty skúmaš hlbiny sŕdc,</p>
+        <p>skúmaš hlbiny sŕdc.</p>
+      </div>
+    </td>
+    <td>Prechod 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

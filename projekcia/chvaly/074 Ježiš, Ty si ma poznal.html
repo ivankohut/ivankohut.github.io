@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Ježiš, Ty si ma poznal</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 74</h2>
+  <h3>Ježiš, Ty si ma poznal</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ježiš, Ty si ma poznal</p>
+        <p>a dal mi odpustenie,</p>
+        <p>podal si mi ruku</p>
+        <p>a už Ti nepoviem: Nie.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ty poznáš moje sadanie,</p>
+        <p>Ty poznáš moje vstávanie,</p>
+        <p>Ty poznáš moje myslenie.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Obkľúčil si ma milosťou</p>
+        <p>a známosťou, čo preteká.</p>
+        <p>Chválou si ma naplnil</p>
+        <p>a dal mi Ducha života.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Preskúmaj si ma, môj Bože,</p>
+        <p>a poznaj moje myšlienky.</p>
+        <p>Preskúmaj moje srdce dnes</p>
+        <p>a veď ma cestou večnosti.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+</table>
+
+</body>
+</html>

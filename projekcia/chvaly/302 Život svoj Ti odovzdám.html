@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Život svoj Ti odovzdám</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 302</h2>
+  <h3>Život svoj Ti odovzdám</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Život svoj Ti odovzdám,</p>
+        <p>lebo väčšiu lásku nepoznám,</p>
+        <p>nikto nie je viac než Ty, môj Pán,</p>
+        <p>čo si za mňa život dal.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>S Tebou viem, že neprehrám,</p>
+        <p>lebo väčšiu silu mám,</p>
+        <p>každý hriech, čo trápi ma,</p>
+        <p>zmažeš krvou z Tvojich rán.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Spasenie v Tebe mám,</p>
+        <p>nikto nemôže mi vziať,</p>
+        <p>čo mi dávaš sám,</p>
+        <p>dnes už viem, že neprehrám,</p>
+        <p>v Tvojich rukách život mám.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>/: Môj Boh a Pán,</p>
+        <p>život svoj v Tebe mám. :/</p>
+      </div>
+    </td>
+    <td>Prechod</td>
+  </tr>
+</table>
+
+</body>
+</html>

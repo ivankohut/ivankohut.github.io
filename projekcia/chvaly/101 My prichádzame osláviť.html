@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>My prichádzame osláviť</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 101</h2>
+  <h3>My prichádzame osláviť</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>My prichádzame osláviť</p>
+        <p>meno Ježiš,</p>
+        <p>do ponebeských oblastí</p>
+        <p>zdvihnúť Jeho kríž.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Zvestovať, že zvíťazil</p>
+        <p>mocný Lev z Júdy,</p>
+        <p>diabla porazil,</p>
+        <p>živá rieka prúdi.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>My veríme, že všetku moc</p>
+        <p>Jemu Otec dal,</p>
+        <p>nech spravodliví spievajú</p>
+        <p>novú pieseň chvál.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Nech sa pred Ním</p>
+        <p>veselí každý spasený,</p>
+        <p>prázdny je hrob,</p>
+        <p>kameň je odvalený!</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ježiš, Ty si pánov Pán,</p>
+        <p>Ty si zvíťazil, Tebe chválu vzdám.</p>
+        <p>Ježiš, Ty si pánov Pán,</p>
+        <p>Ty si zvíťazil a ja Tebe</p>
+        <p>vďačnú chválu vzdám.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+</table>
+
+</body>
+</html>

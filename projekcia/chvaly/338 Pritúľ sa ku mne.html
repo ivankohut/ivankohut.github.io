@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Pritúľ sa ku mne</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 338</h2>
+  <h3>Pritúľ sa ku mne</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>/: Pritúľ sa ku mne,</p>
+        <p>ja čakám na teba. :/</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Svojou peruťou ťa prikryjem</p>
+        <p>a nájdeš útočište.</p>
+      </div>
+      <div class="slide">
+        <p>Nemusíš sa báť,</p>
+        <p>veď k tebe sa nepriblíži</p>
+        <p>to, čo číha vo svete,</p>
+        <p>keď tvoje srdce ukryté je vo mne,</p>
+        <p>nič sa ťa nedotkne, nedotkne.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Chcem ti ukázat,</p>
+        <p>čo mám pre teba</p>
+        <p>pripravené.</p>
+      </div>
+      <div class="slide">
+        <p>Chcem ťa potešiť,</p>
+        <p>uzdraviť, oslobodiť,</p>
+        <p>ja chcem.</p>
+      </div>
+      <div class="slide">
+        <p>Každý jeden deň</p>
+        <p>myslím na teba</p>
+        <p>neustále.</p>
+      </div>
+      <div class="slide">
+        <p>Chcem ti poradiť,</p>
+        <p>ochrániť, viesť ťa,</p>
+        <p>ja chcem, ja chcem.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>/: Nech ti nikto nehovorí, že nechcem</p>
+        <p>a nie si pre mňa dosť vzácny.</p>
+        <p>Nie zdraví potrebujú lekára,</p>
+        <p>ale chorí. :/</p>
+      </div>
+      <div class="slide">
+        <p>/: Nech ti nikto nehovorí, že nechcem</p>
+        <p>a nie si pre mňa dosť vzácny,</p>
+        <p>dosť dobrý, dosť dokonalý.</p>
+        <p>Nie zdraví potrebujú lekára,</p>
+        <p>ale chorí. :/</p>
+      </div>
+    </td>
+    <td>Prechod</td>
+  </tr>
+</table>
+
+</body>
+</html>

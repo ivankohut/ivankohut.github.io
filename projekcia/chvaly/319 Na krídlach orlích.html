@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Na krídlach orlích</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 319</h2>
+  <h3>Na krídlach orlích</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Na krídlach orlích sa vznášajú tí,</p>
+        <p>čo na Boha čakajú</p>
+        <p>a príval nových síl dostanú tí,</p>
+        <p>čo len v Neho dúfajú.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Bežia a nezomdlievajú,</p>
+        <p>chodia a neustávajú.</p>
+      </div>
+    </td>
+    <td>Refrén 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Počul si už, že Ten, čo stvoril nás,</p>
+        <p>neustáva a nezomdlieva!</p>
+        <p>Keď sme ustatí, silu dáva nám,</p>
+        <p>keď v nás sily niet, mocou napĺňa.</p>
+      </div>
+      <div class="slide">
+        <p>Tam, kde iní klesajú,</p>
+        <p>tam, kde iní padajú,</p>
+        <p>tí, čo na Pána čakajú,</p>
+        <p>hojne moci naberú.</p>
+      </div>
+    </td>
+    <td>Refrén 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

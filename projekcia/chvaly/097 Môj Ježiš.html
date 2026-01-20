@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Môj Ježiš</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 97</h2>
+  <h3>Môj Ježiš</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Môj Ježiš, si spásou,</p>
+        <p>Pán nie je nik ako Ty.</p>
+        <p>Chcem v každý čas,</p>
+        <p>tak ako dnes,</p>
+        <p>Teba chváliť, Pán môj a Kráľ.</p>
+      </div>
+      <div class="slide">
+        <p>Môj Majster, si štítom,</p>
+        <p>záchrancom, si pokoj môj.</p>
+        <p>Všetko, čo viem,</p>
+        <p>všetko, čo mám,</p>
+        <p>Tebe dávam, Pán môj, rád.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Sám si môj Boh,</p>
+        <p>celá zem nech vidí,</p>
+        <p>sláva a moc,</p>
+        <p>majestát Ti patrí.</p>
+      </div>
+      <div class="slide">
+        <p>Hory pred trónom</p>
+        <p>sa skláňajú</p>
+        <p>a Ty sám vládneš slávne.</p>
+      </div>
+    </td>
+    <td>Refrén 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Spievam Ti rád,</p>
+        <p>veď si Pán môj a Kráľ.</p>
+        <p>Naveky chcem stáť,</p>
+        <p>Teba stále mať rád.</p>
+      </div>
+      <div class="slide">
+        <p>Nič nie je viac</p>
+        <p>ako láska,</p>
+        <p>čo dal si nám.</p>
+      </div>
+    </td>
+    <td>Refrén 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Pevný bod</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 356</h2>
+  <h3>Pevný bod</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Kde nájdem pevný bod</p>
+        <p>v premenlivých dobách?</p>
+        <p>Miesto, kde môžem prísť,</p>
+        <p>keď nevládzem už ďalej ísť.</p>
+        <p>Priestor bez priepasti,</p>
+        <p>kde nemusím sa báť.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Skláňam hlavu, lebo viem, že máš</p>
+        <p>pravdu, ktorou si Ty sám.</p>
+        <p>Dvíhaš hlavu srdcom skrúšaným,</p>
+        <p>si kameňom uholným.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ešte ďalej ísť, než schopný veriť som,</p>
+        <p>dvíhať seba sám už viac nevládzem.</p>
+        <p>Dnes sa vraciam tam, kde si ma našiel Ty,</p>
+        <p>svoju stratenosť pod krížom vyzúvam.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+</table>
+
+</body>
+</html>

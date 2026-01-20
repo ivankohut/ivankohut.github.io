@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Vezmi moje srdce</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 357</h2>
+  <h3>Vezmi moje srdce</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>/: Keď vstúpim do Tvojej hĺbky,</p>
+        <p>voda ma obmyje,</p>
+        <p>v tôni Tvojej slávy</p>
+        <p>moje srdce znova ožije.</p>
+      </div>
+      <div class="slide">
+        <p>Vykročím do neznáma,</p>
+        <p>láska ma povedie,</p>
+        <p>do Tvojho srdca, Pane,</p>
+        <p>kde večná pieseň znie. :/</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Keď vstúpim do Tvojej hĺbky,</p>
+        <p>voda ma obmyje,</p>
+        <p>v tôni Tvojej slávy</p>
+        <p>moje srdce znova ožije.</p>
+      </div>
+      <div class="slide">
+        <p>Vykročím do neznáma,</p>
+        <p>láska ma povedie,</p>
+        <p>len v Tvojej prítomnosti</p>
+        <p>čo má robiť, moje srdce vie.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Vezmi moje srdce dnes,</p>
+        <p>chcem Tebou nechať sa viesť,</p>
+        <p>v Tvojej blízkosti chcem rásť,</p>
+        <p>túžim prekročiť svoj prah.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Vezmi moje srdce dnes,</p>
+        <p>chcem Tebou nechať sa viesť,</p>
+        <p>Tvoju lásku prinášať</p>
+        <p>tam, kam nedopadá dážď.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Aj keď slabý som, viem,</p>
+        <p>v Tvojej láske strachu niet,</p>
+        <p>ani tma mnou neotrasie,</p>
+        <p>Tvoja láska vo mne rastie.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+</table>
+
+</body>
+</html>

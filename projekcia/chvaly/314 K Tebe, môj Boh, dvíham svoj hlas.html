@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>K Tebe, môj Boh, dvíham svoj hlas</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 314</h2>
+  <h3>K Tebe, môj Boh, dvíham svoj hlas</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Len tvoja láska z prachu nás dvíha</p>
+        <p>do Tvojej slávy z temnoty dní.</p>
+        <p>Bremená lámeš a v trápení síl dáš,</p>
+        <p>uzdravuj nás.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>/: K Tebe, môj Boh, dvíham svoj hlas,</p>
+        <p>Tebe, môj Boh, vzdávam chválu.</p>
+        <p>K Tebe, môj Boh, dvíham svoj hlas,</p>
+        <p>spievam aleluja. :/</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Putá si zlámal, oči otváraš,</p>
+        <p>armáda Kráľa dnes začína rásť.</p>
+        <p>Smrť viac nemá moc,</p>
+        <p>víťaztvo nám dal náš živý Pán.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Haleluja, haleluja, haleluja,</p>
+        <p>spievam aleluja,</p>
+        <p>haleluja, haleluja, haleluja.</p>
+      </div>
+    </td>
+    <td>Prechod 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Chválou znie,</p>
+        <p>Svätý, Svätý, Svätý.</p>
+        <p>Tvoje meno znie</p>
+        <p>Svätý, Svätý, Svätý.</p>
+      </div>
+    </td>
+    <td>Prechod 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

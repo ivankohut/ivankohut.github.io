@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Náš Otče, ktorý si v nebi</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 325</h2>
+  <h3>Náš Otče, ktorý si v nebi</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Náš Otče, ktorý si v nebi,</p>
+        <p>posväť sa meno Tvoje.</p>
+        <p>Kráľovstvo Tvoje príď</p>
+        <p>a staň sa Tvoja vôľa,</p>
+        <p>ako v nebi, tak aj na zemi.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Daj nám každodenný chlieb</p>
+        <p>a odpusť nám viny naše.</p>
+        <p>A neuvoď nás v pokušenie,</p>
+        <p>ale zbav nás od zlého.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Lebo Tvoje je kráľovstvo, sila i moc,</p>
+        <p>Tvoja je sláva od vekov až naveky.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Amen, amen, amen.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+</table>
+
+</body>
+</html>

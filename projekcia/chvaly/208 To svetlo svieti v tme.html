@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>To svetlo svieti v tme</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 208</h2>
+  <h3>To svetlo svieti v tme</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>To svetlo svieti v tme</p>
+        <p>a tma ho nepohltí.</p>
+        <p>To svetlo svieti v nás,</p>
+        <p>sme Božie drahé deti.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Tak poďme v Pánovi,</p>
+        <p>On pre nás víťazstvo má.</p>
+        <p>Veď zomrel na kríži</p>
+        <p>a z hrobu vstal ako Víťaz náš.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Už počuť zvesť</p>
+        <p>a zlý sa chveje pred ňou,</p>
+        <p>moc Božích slov</p>
+        <p>obracia srdcia otcov.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Veď každý z nás cíti</p>
+        <p>tú vieru v srdci,</p>
+        <p>že Boží Duch v nás</p>
+        <p>oheň rozhorí.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Teraz je čas prísť</p>
+        <p>svetlom do temnoty,</p>
+        <p>ten oheň v nás</p>
+        <p>stále viac a viac horí.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Z výsosti moc</p>
+        <p>nás práve zaodieva</p>
+        <p>a temnú noc</p>
+        <p>lúč svetla preniká.</p>
+      </div>
+    </td>
+    <td>Sloha 6</td>
+  </tr>
+</table>
+
+</body>
+</html>

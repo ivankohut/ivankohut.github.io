@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Kam by som šiel</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 78</h2>
+  <h3>Kam by som šiel</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Kam by som šiel,</p>
+        <p>keď mi chýba priateľ?</p>
+        <p>Kam by som šiel,</p>
+        <p>keď sa cítim sám?</p>
+      </div>
+      <div class="slide">
+        <p>Kam by som šiel,</p>
+        <p>keď sa cítim slabý?</p>
+        <p>Kam by som šiel,</p>
+        <p>pôjdem na kolená.</p>
+      </div>
+      <div class="slide">
+        <p>Keď sa ma spýtaš,</p>
+        <p>ja odpoveď mám.</p>
+        <p>Boh je vždy blízko,</p>
+        <p>keď som tak sám.</p>
+      </div>
+      <div class="slide">
+        <p>Vždy, keď sa modlím,</p>
+        <p>On odpovedá.</p>
+        <p>On pre mňa riešenie má.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+</table>
+
+</body>
+</html>

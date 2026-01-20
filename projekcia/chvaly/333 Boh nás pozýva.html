@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Boh nás pozýva</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 333</h2>
+  <h3>Boh nás pozýva</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Boh nás pozýva:</p>
+        <p>Vstúpte bez bázne,</p>
+        <p>vstúpte pred lásky trón!</p>
+        <p>Náruč otvára,</p>
+        <p>hriešnych zvoláva,</p>
+        <p>život podáva On.</p>
+      </div>
+      <div class="slide">
+        <p>Boh nás prijíma,</p>
+        <p>dáva bez zásluh</p>
+        <p>milosť odpúšťania,</p>
+        <p>na hriech zabúda,</p>
+        <p>srdce obmýva,</p>
+        <p>príďte bez váhania.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Stáročia zneje svetom láskavý hlas:</p>
+        <p>Spasenie je dokonané!</p>
+        <p>Príďte, kým je čas.</p>
+      </div>
+      <div class="slide">
+        <p>Hľaďte, čo z lásky pre vás obetoval,</p>
+        <p>Ježiš, Boží Syn,</p>
+        <p>On sa pre váš hriech</p>
+        <p>Božím Baránkom stal.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Vieš, že na súde</p>
+        <p>zaznie otázka:</p>
+        <p>Patríš k vykúpeným?</p>
+        <p>V hriechu neblúdiš?</p>
+        <p>Vojdeš do slávy,</p>
+        <p>budeš prebývať s Ním?</p>
+      </div>
+      <div class="slide">
+        <p>Dobre počúvaj,</p>
+        <p>čo sa ozýva</p>
+        <p>z Jeho prevzácnych slov,</p>
+        <p>nesmieš pohŕdať</p>
+        <p>zvesťou o láske,</p>
+        <p>krvou Baránkovou!</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Haleluja, chváľme silného Boha</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 45</h2>
+  <h3>Haleluja, chváľme silného Boha</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Haleluja,</p>
+        <p>chváľme silného Boha</p>
+        <p>v Jeho svätyni.</p>
+      </div>
+      <div class="slide">
+        <p>Haleluja,</p>
+        <p>On je hoden chvály,</p>
+        <p>len On jediný.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Poďme, chváľme Ho tamburínou,</p>
+        <p>chváľme Ho piesňou svojich sŕdc.</p>
+        <p>Pozdvihnime svoj hlas k Nemu,</p>
+        <p>sme Jeho slávny ľud.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Nech všetko, čo má dych,</p>
+        <p>chváli Pána zástupov.</p>
+        <p>Nik nie je podobný</p>
+        <p>Kráľovi kráľov.</p>
+      </div>
+    </td>
+    <td>Prechod</td>
+  </tr>
+</table>
+
+</body>
+</html>

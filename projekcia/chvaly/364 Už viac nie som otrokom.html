@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Už viac nie som otrokom</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 364</h2>
+  <h3>Už viac nie som otrokom</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Piesňou rozlomíš moje okovy,</p>
+        <p>keď ma dvíhaš v náručí.</p>
+        <p>Od nepriateľov oslobodený,</p>
+        <p>viac báť sa nemusím.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Už viac nie som strachu otrokom,</p>
+        <p>som Božím dieťaťom.</p>
+        <p>Už viac nie som strachu otrokom,</p>
+        <p>som Božím dieťaťom.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Kým som uzrel svet,</p>
+        <p>Ty si ma vyvolil láskou odvekou.</p>
+        <p>Znovuzrodený do Tvojej rodiny,</p>
+        <p>krv Tvoja prúdi mnou.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Rozdelíš more, stredom môžem kráčať</p>
+        <p>a všetky strachy utopíš.</p>
+        <p>Zachránený od smrti spievať smiem:</p>
+        <p>„Som Božím dieťaťom.“</p>
+      </div>
+    </td>
+    <td>Prechod</td>
+  </tr>
+</table>
+
+</body>
+</html>

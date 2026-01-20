@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Volám na Teba</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 295</h2>
+  <h3>Volám na Teba</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Volám na Teba,</p>
+        <p>viem, že mi odpovieš,</p>
+        <p>nakloň ucho dnes</p>
+        <p>ku mojej modlitbe.</p>
+      </div>
+      <div class="slide">
+        <p>O mne rozhodni,</p>
+        <p>veď vieš, čo pravda je,</p>
+        <p>skúmaš srdce mi,</p>
+        <p>nič Ti skryť nemôžem.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Túžim v čistote</p>
+        <p>hľadieť na Tvoju tvár,</p>
+        <p>stretnúť ráno Ťa hneď,</p>
+        <p>keď sa prebúdzam.</p>
+      </div>
+      <div class="slide">
+        <p>Prosím preukáž mi</p>
+        <p>milosť predivnú,</p>
+        <p>vystri svoju dlaň</p>
+        <p>a veď ma za ruku.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ako zrenicu oka</p>
+        <p>ma ostríhaj,</p>
+        <p>v tôni Tvojich krídel,</p>
+        <p>tam prosím ukry ma!</p>
+      </div>
+      <div class="slide">
+        <p>Moje kroky drž</p>
+        <p>v šľapajach Tvojich,</p>
+        <p>nech sa mi nestane,</p>
+        <p>že cestou zablúdim.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Jediné miesto</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 291</h2>
+  <h3>Jediné miesto</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Jediné miesto, kde pokoj nájdem,</p>
+        <p>tam, kde sa cítim v bezpečí,</p>
+        <p>je pri Tebe, Ježiš,</p>
+        <p>tam všetko nájdem,</p>
+        <p>Ty ma vždy o tom presvedčíš.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Už sa nemusím báť neistých dní,</p>
+        <p>keď Ty vo mne prebývaš.</p>
+        <p>Teraz pevne smiem stáť,</p>
+        <p>mojou istotou si.</p>
+        <p>Ježiš, všetko máš.</p>
+      </div>
+    </td>
+    <td>Predrefrén</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Imanuel, Imanuel,</p>
+        <p>viem, že Ty sám</p>
+        <p>nado mnou stále bdieš.</p>
+      </div>
+      <div class="slide">
+        <p>Imanuel, Imanuel,</p>
+        <p>v dave poznáš môj hlas,</p>
+        <p>nikdy nezanecháš,</p>
+        <p>pri mne budeš stáť.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+</table>
+
+</body>
+</html>

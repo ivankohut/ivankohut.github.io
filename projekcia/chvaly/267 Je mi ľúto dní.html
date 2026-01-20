@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Je mi ľúto dní</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 267</h2>
+  <h3>Je mi ľúto dní</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Je mi ľúto dní,</p>
+        <p>čo som premárnil,</p>
+        <p>je mi ľúto dní,</p>
+        <p>čo mali krásne byť,</p>
+        <p>je mi ľúto dní,</p>
+        <p>čo som len tak zabil.</p>
+      </div>
+      <div class="slide">
+        <p>Viem, že čas nevrátim,</p>
+        <p>viem, že ho nevrátim.</p>
+      </div>
+      <div class="slide">
+        <p>Potom si vstúpil Ty</p>
+        <p>a s Tebou príchuť neba.</p>
+        <p>Ako ma premieňaš,</p>
+        <p>to vyspievať sa nedá.</p>
+      </div>
+      <div class="slide">
+        <p>Žiť pre staré ciele ma už nebaví,</p>
+        <p>dnes žijem pre Teba</p>
+        <p>a za Tvoj kríž sa nehanbím.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Nehanbím sa,</p>
+        <p>nehanbím za Tvoj kríž,</p>
+        <p>nehanbím sa, nehanbím,</p>
+        <p>že si ma spasil, Ježiš.</p>
+      </div>
+      <div class="slide">
+        <p>Nehanbím sa,</p>
+        <p>že som Tvoj, ó, Pane,</p>
+        <p>na kríži získal si ma,</p>
+        <p>je dokonané.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+</table>
+
+</body>
+</html>

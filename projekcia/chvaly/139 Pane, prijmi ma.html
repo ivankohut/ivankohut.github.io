@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Pane, prijmi ma</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 139</h2>
+  <h3>Pane, prijmi ma</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Pane, prijmi ma,</p>
+        <p>srdce zmeň mi</p>
+        <p>dnes Ty sám,</p>
+        <p>prameň milosti</p>
+        <p>nech ma zaplaví.</p>
+      </div>
+      <div class="slide">
+        <p>Pane, spoznal som,</p>
+        <p>že slabosti, čo trápia ma,</p>
+        <p>strhnúť vieš Ty sám</p>
+        <p>tou láskou, čo moc má.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Viac ma drž</p>
+        <p>v objatí Tvojej lásky,</p>
+        <p>tiahni ma, chcem bližšie</p>
+        <p>k Tebe prísť.</p>
+      </div>
+      <div class="slide">
+        <p>Na krídlach smiem</p>
+        <p>sa ako orol vznášať,</p>
+        <p>keď očakávať viem,</p>
+        <p>Tvoj Duch mi zjavuje,</p>
+        <p>tú lásku, čo moc má.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Pane, prezrieť chcem,</p>
+        <p>chcem uvidieť Ťa</p>
+        <p>tvárou v tvár.</p>
+        <p>Tvojej lásky moc</p>
+        <p>túžim prežívať.</p>
+      </div>
+      <div class="slide">
+        <p>Myseľ premieňaj,</p>
+        <p>chcem iba Tvoju vôľu žiť,</p>
+        <p>keď denne meníš ma,</p>
+        <p>tou láskou, čo moc má.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

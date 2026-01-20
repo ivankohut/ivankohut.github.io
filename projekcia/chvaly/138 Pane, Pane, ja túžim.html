@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Pane, Pane, ja túžim</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 138</h2>
+  <h3>Pane, Pane, ja túžim</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Pane, Pane,</p>
+        <p>ja túžim snívať Tvoj sen.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>V Tebe som našiel svojho Kráľa,</p>
+        <p>Záchrancu a Pána.</p>
+        <p>Pozvanie k čistote,</p>
+        <p>slobodu ku chvále,</p>
+        <p>chcem viac Teba mať!</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Tam kde nie je, tam Ty dávaš</p>
+        <p>túžby a sny o novom.</p>
+        <p>Prinášaš nové,</p>
+        <p>premieňaš staré,</p>
+        <p>chcem viac Teba mať.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Viem, že Ty hľadáš</p>
+        <p>tých, čo budú s Tebou stáť</p>
+        <p>a snívať Tvoje sny.</p>
+        <p>Sny o zmenách, o prebudení,</p>
+        <p>o chodení s Tebou.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Úbožiak zavolal</p>
+        <p>a Pán ho vyslyšal,</p>
+        <p>vyslobodil ho zo všetkej hrôzy.</p>
+        <p>Ty si môj Pán, Teba nasledujem,</p>
+        <p>Ty si Pán a Boh.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Úctu a chválu</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 308</h2>
+  <h3>Úctu a chválu</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Úctu a chválu,</p>
+        <p>česť, moc a slávu</p>
+        <p>má Boh až do konca dní.</p>
+        <p>Tam, kde On vládne,</p>
+        <p>chvála nech zaznie</p>
+        <p>Najvyššiemu do konca dní.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Každý jazyk na nebesiach</p>
+        <p>spieva: Sláva Bohu.</p>
+        <p>V úcte Zem sa skláňa celá</p>
+        <p>ku chvále.</p>
+      </div>
+      <div class="slide">
+        <p>Božie meno oslávené buď stále.</p>
+        <p>Vláda Božia bola i je,</p>
+        <p>tá nepominie.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Tvoj trón bude nám vládnuť naveky,</p>
+        <p>spievame: Ty si náš Kráľ.</p>
+        <p>Veď na svete nie je nik ako Ty,</p>
+        <p>len Ty si hodný chvál.</p>
+      </div>
+    </td>
+    <td>Prechod</td>
+  </tr>
+</table>
+
+</body>
+</html>

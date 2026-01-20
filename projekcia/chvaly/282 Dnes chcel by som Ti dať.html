@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Dnes chcel by som Ti dať</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 282</h2>
+  <h3>Dnes chcel by som Ti dať</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Dnes chcel by som Ti dať</p>
+        <p>to, čo v srdci mám,</p>
+        <p>dávam na oltár</p>
+        <p>k Tvojim nohám, kráľov Kráľ.</p>
+      </div>
+      <div class="slide">
+        <p>Dnes kladiem svoje sny,</p>
+        <p>ja sa zriekam svojich práv,</p>
+        <p>už nechcem pyšný stáť,</p>
+        <p>chcem nový život mať.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>A dávam všetko, to,</p>
+        <p>čo mám, Tebe Kráľ.</p>
+        <p>A dávam všetko, to,</p>
+        <p>čo mám, Tebe Kráľ.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Keď túto pieseň hrám,</p>
+        <p>pod krížom stojím sám</p>
+        <p>a všetky bohatstvá</p>
+        <p>za smeti pokladám,</p>
+      </div>
+      <div class="slide">
+        <p>chcem poznať Teba, Kráľ,</p>
+        <p>slávu mena, ktoré máš,</p>
+        <p>tá radosť nekončí,</p>
+        <p>aj keď s Tebou trpieť mám.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

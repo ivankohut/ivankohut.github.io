@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Staň se mou vizí</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 315</h2>
+  <h3>Staň se mou vizí</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Staň se mou vizí,</p>
+        <p>buď snem, který mám,</p>
+        <p>pro který chci žít</p>
+        <p>a svůj život dám,</p>
+      </div>
+      <div class="slide">
+        <p>hlasem, jenž vodí mne</p>
+        <p>světlem i tmou,</p>
+        <p>každý den provází</p>
+        <p>mne stezkou Tvou.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ty jsi má moudrost,</p>
+        <p>má pravda, můj Pán,</p>
+        <p>od Tebe učím se</p>
+        <p>všemu, co znám.</p>
+      </div>
+      <div class="slide">
+        <p>Můj Otče v nebesích,</p>
+        <p>jsem dítě Tvé,</p>
+        <p>svou láskou přebýváš</p>
+        <p>teď v srdci mém.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Sám jsi mým štítem,</p>
+        <p>Tvůj meč ostrý mám,</p>
+        <p>sílu a odvahu</p>
+        <p>svou dáváš nám.</p>
+      </div>
+      <div class="slide">
+        <p>Skálou jsi pevnou,</p>
+        <p>jež ční jako hrad,</p>
+        <p>nad mořem běsnícím</p>
+        <p>s Tebou chci stát.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Nehledám slávu</p>
+        <p>či bohatství lesk,</p>
+        <p>Ty jsi můj přítel</p>
+        <p>a Nejvyšší kněz.</p>
+      </div>
+      <div class="slide">
+        <p>Až jednou vrátíš se</p>
+        <p>v slávě své k nám,</p>
+        <p>k sobě mne zavoláš,</p>
+        <p>Tvůj hlas už znám.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Môžem spievať o láske večnej</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 100</h2>
+  <h3>Môžem spievať o láske večnej</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ó, ponad vrchy prúdi k nám</p>
+        <p>rieka lásky zázračná.</p>
+        <p>Tebe srdce otváram,</p>
+        <p>Tvoj dotyk, Pán môj,</p>
+        <p>voľnosť dá.</p>
+      </div>
+      <div class="slide">
+        <p>Som šťastný,</p>
+        <p>že smiem v pravde stáť,</p>
+        <p>ruky k Tebe dvíham rád.</p>
+        <p>Ó, vďačnú chválu vzdám,</p>
+        <p>že lásku si mi dal,</p>
+        <p>môj Pán.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Môžem spievať o láske večnej,</p>
+        <p>môžem spievať o láske Tvojej.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Chcem Ťa chváliť v tanci,</p>
+        <p>hoc smiať sa bude svet.</p>
+        <p>A keď on pravdu spozná raz,</p>
+        <p>bude radosť mať,</p>
+        <p>akú mám dnes ja.</p>
+      </div>
+    </td>
+    <td>Prechod</td>
+  </tr>
+</table>
+
+</body>
+</html>

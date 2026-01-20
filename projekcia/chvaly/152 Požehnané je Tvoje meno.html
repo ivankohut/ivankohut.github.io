@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Požehnané je Tvoje meno</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 152</h2>
+  <h3>Požehnané je Tvoje meno</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Požehnané je Tvoje meno</p>
+        <p>v zemi milosti,</p>
+        <p>kde tečie prameň hojnosti.</p>
+        <p>Meno Pána chváľ!</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Požehnané je Tvoje meno</p>
+        <p>v čase súženia,</p>
+        <p>keď kráčam suchou pustinou.</p>
+        <p>Meno Pána chváľ!</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Požehnania množstvo si dal,</p>
+        <p>ja Ti chválu vzdám.</p>
+        <p>Temnota, keď obklopí ma,</p>
+        <p>stále vyznávam.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Buď meno Pána</p>
+        <p>požehnané.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Požehnané meno</p>
+        <p>nádherné.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Požehnané je Tvoje meno</p>
+        <p>počas dobrých dní,</p>
+        <p>keď slnko tvár Ti rozjasní.</p>
+        <p>Meno Pána chváľ!</p>
+      </div>
+    </td>
+    <td>Sloha 6</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Požehnané je Tvoje meno</p>
+        <p>počas ťažkých chvíľ,</p>
+        <p>aj v bolesti a trápení.</p>
+        <p>Meno Pána chváľ!</p>
+      </div>
+    </td>
+    <td>Sloha 7</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Požehnania množstvo si dal</p>
+        <p>ja Ti chválu vzdám.</p>
+        <p>Temnota, keď obklopí ma,</p>
+        <p>stále vyznávam.</p>
+      </div>
+    </td>
+    <td>Sloha 8</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Buď meno Pána</p>
+        <p>požehnané.</p>
+      </div>
+    </td>
+    <td>Sloha 9</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Požehnané meno</p>
+        <p>nádherné.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ty si dal a vzal si späť.</p>
+        <p>Ty si dal a vzal si späť.</p>
+        <p>Moje srdce spievať chce.</p>
+        <p>Tvoje meno sväté je!</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+</table>
+
+</body>
+</html>

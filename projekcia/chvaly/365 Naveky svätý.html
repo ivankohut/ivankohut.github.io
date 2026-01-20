@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Naveky svätý</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 365</h2>
+  <h3>Naveky svätý</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Tisíc pokolení pred Tebou sa skláňa</p>
+        <p>a chváli piesňou večnou Baránka.</p>
+        <p>Tí, čo predišli nás a tí, čo uveria,</p>
+        <p>nech chvália piesňou večnou Baránka.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ty máš meno slávne,</p>
+        <p>Ty máš meno vzácne,</p>
+        <p>Ty máš meno víťazné.</p>
+      </div>
+      <div class="slide">
+        <p>Je viac než každá vláda,</p>
+        <p>moc má putá zlámať,</p>
+        <p>Ty máš meno víťazné.</p>
+      </div>
+    </td>
+    <td>Predrefrén</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Anjelský spev znie, svätý,</p>
+        <p>volá stvorenie, svätý,</p>
+        <p>najvyšší Boh je svätý,</p>
+        <p>naveky svätý.</p>
+      </div>
+    </td>
+    <td>Refrén 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ak tvoj hriech Boh zmazal,</p>
+        <p>ak v Ňom spásu máš,</p>
+        <p>chváľ tiež piesňou večnou Baránka.</p>
+      </div>
+      <div class="slide">
+        <p>Ak dnes Jemu patríš, ak si slobodný,</p>
+        <p>chváľ tiež piesňou večnou Baránka.</p>
+        <p>Chváľme piesňou večnou Baránka.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Tvoj ľud spieva Ti, svätý,</p>
+        <p>svojmu Kráľovi, svätý,</p>
+        <p>lebo stále si svätý,</p>
+        <p>naveky svätý.</p>
+      </div>
+    </td>
+    <td>Refrén 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

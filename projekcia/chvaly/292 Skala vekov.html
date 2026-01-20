@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Skala vekov</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 292</h2>
+  <h3>Skala vekov</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Skala vekov, Tvoja skrýš</p>
+        <p>ukry ma a srdce stíš!</p>
+        <p>Vnor ma v svätej krvi zdroj,</p>
+        <p>rany po hriechoch mi zhoj.</p>
+        <p>Príď mi, Kriste, na pomoc,</p>
+        <p>odpusť hriech, znič jeho moc.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Čo mi nárek pomôže?</p>
+        <p>Ty pomôž mi, ó, Bože!</p>
+        <p>Ty riaď žitia môjho púť;</p>
+        <p>tak nemusím zahynúť.</p>
+        <p>Neviem kade, neviem kam;</p>
+        <p>– ku Tebe sa utiekam.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Prázdne ruky vystieram,</p>
+        <p>oči na kríž upieram.</p>
+        <p>Nahý som, mne rúcho daj,</p>
+        <p>bezmocnému pomáhaj!</p>
+        <p>Vrúcnych prosieb počuj hlas,</p>
+        <p>Spasiteľu, spas, ma, spas!</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Až mi biely smrti mráz</p>
+        <p>zavrie oči pre svet raz,</p>
+        <p>daj, nech otvoria sa tam,</p>
+        <p>kde Ty súdiť budeš sám.</p>
+        <p>Skala vekov, Tvoja skrýš</p>
+        <p>ukry ma a srdce stíš!</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Ku krížu ma veď</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 321</h2>
+  <h3>Ku krížu ma veď</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Spasiteľ môj, len ako Ty vieš,</p>
+        <p>utíš ma.</p>
+        <p>Nemôžem vojsť na miesto sväté,</p>
+        <p>hriech zmývaj.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Čo som rátal za drahé,</p>
+        <p>pre mňa viac nemá cenu.</p>
+      </div>
+    </td>
+    <td>Refrén 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ku krížu ma veď, kde láska vyviera.</p>
+        <p>Tam na kolenách sa Ti poddávam.</p>
+        <p>Svetu vzdialený k Tebe bližšie prísť.</p>
+        <p>Len veď ma, ku krížu ma veď.</p>
+      </div>
+    </td>
+    <td>Refrén 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Tak ako ja si skúšaný bol,</p>
+        <p>aj viacej.</p>
+        <p>Telom svojím niesol si hriech,</p>
+        <p>ten môj hriech.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Len Ty sám,</p>
+        <p>len Ty sám,</p>
+        <p>veď ma len Ty sám,</p>
+        <p>veď ma len Ty sám.</p>
+      </div>
+    </td>
+    <td>Prechod</td>
+  </tr>
+</table>
+
+</body>
+</html>

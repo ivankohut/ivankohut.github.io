@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Pán mi cestu dá</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 143</h2>
+  <h3>Pán mi cestu dá</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Pán mi cestu dá,</p>
+        <p>kde sa zdá,</p>
+        <p>že cesty niet.</p>
+      </div>
+      <div class="slide">
+        <p>Keď neviem sám,</p>
+        <p>jak ďalej ísť,</p>
+        <p>On mi cestu urobí.</p>
+      </div>
+      <div class="slide">
+        <p>Jemu život dám,</p>
+        <p>v srdci postavím Mu chrám.</p>
+        <p>S nádejou na každý deň:</p>
+      </div>
+      <div class="slide">
+        <p>Pán mi cestu dá,</p>
+        <p>Pán mi cestu dá.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Svojou rukou temným</p>
+        <p>údolím ma vedie.</p>
+        <p>Rieky prúd na púšti</p>
+        <p>uvidím.</p>
+      </div>
+      <div class="slide">
+        <p>Nebo i zem pominú,</p>
+        <p>ale Jeho slovo nie.</p>
+        <p>Viem, že Pán mi</p>
+        <p>cestu dá aj dnes.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Viem, že Pán mi</p>
+        <p>cestu dá aj dnes.</p>
+      </div>
+    </td>
+    <td>Značka</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Prístav</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 329</h2>
+  <h3>Prístav</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Je to tak vzácne,</p>
+        <p>že uprostred búrky</p>
+        <p>Ty povieš len slovo</p>
+        <p>a utíchnu vlny,</p>
+      </div>
+      <div class="slide">
+        <p>klesnú a stratia sa</p>
+        <p>v hlbinách mora</p>
+        <p>a niet takej búrky,</p>
+        <p>čo môže Ťa zdolať.</p>
+      </div>
+      <div class="slide">
+        <p>Vedieš ma k tichým</p>
+        <p>a priezračným vodám,</p>
+        <p>tým, ktoré mnohí</p>
+        <p>túžili spoznať.</p>
+      </div>
+      <div class="slide">
+        <p>Dôvera v Teba</p>
+        <p>stráži môj spánok</p>
+        <p>a chráni mi srdce</p>
+        <p>a myseľ už zrána,</p>
+      </div>
+      <div class="slide">
+        <p>lebo viem, že si stále so mnou,</p>
+        <p>viem, že si pri mne stále,</p>
+        <p>viem, že si blízko...</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Uprostred sveta,</p>
+        <p>čo napĺňa chaos,</p>
+        <p>Ty vnášaš svoj poriadok,</p>
+        <p>pokoj a radosť.</p>
+      </div>
+      <div class="slide">
+        <p>Je to tak vzácne,</p>
+        <p>že v najťažších časoch</p>
+        <p>kotva mojej duše</p>
+        <p>vydrží nápor</p>
+      </div>
+      <div class="slide">
+        <p>a ja viem, že si stále so mnou,</p>
+        <p>viem, že si pri mne stále</p>
+        <p>viem, že si blízko...</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

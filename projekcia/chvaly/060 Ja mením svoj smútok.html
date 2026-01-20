@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Ja mením svoj smútok</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 60</h2>
+  <h3>Ja mením svoj smútok</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ja mením svoj smútok,</p>
+        <p>ja mením svoj plač,</p>
+        <p>ja to všetko mením</p>
+        <p>za Tvoju radosť.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ja mením svoju chorobu,</p>
+        <p>ja mením svoj strach,</p>
+        <p>ja to všetko mením</p>
+        <p>za Tvoju radosť.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Hovorím: áno, Pane,</p>
+        <p>áno, Pane, áno, Pane.</p>
+        <p>Áno, Pane, áno, Pane, áno, Pane.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Hovorím: áno, Pane,</p>
+        <p>áno, Pane, áno, Pane.</p>
+        <p>Amen.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Hoc som aj tlačený a bitý,</p>
+        <p>nie som porazený,</p>
+        <p>na kolenách a zúfalý.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>V tom všetkom som požehnaný,</p>
+        <p>veď ešte vždy platí:</p>
+        <p>Tvoja radosť je mojou silou.</p>
+      </div>
+    </td>
+    <td>Sloha 6</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Aj keby smútok trval</p>
+        <p>po celú noc,</p>
+        <p>viem, ráno príde radosť.</p>
+      </div>
+    </td>
+    <td>Sloha 7</td>
+  </tr>
+</table>
+
+</body>
+</html>

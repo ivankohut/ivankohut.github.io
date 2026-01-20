@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Zo všetkých strán</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 260</h2>
+  <h3>Zo všetkých strán</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Zo všetkých strán</p>
+        <p>to na mňa dýcha,</p>
+        <p>neviem, čo s tým robiť mám?</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Je to šialenstvo</p>
+        <p>v mojom vnútri azda vietor,</p>
+        <p>či len klam?</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Občas si mi tak vzdialený,</p>
+        <p>občas mi vlezieš pod kožu.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Si všade vôkol mňa</p>
+        <p>ako zimná hmla,</p>
+        <p>môj oheň sa rozpáli</p>
+        <p>po Tvojom bozku.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>A ja horím, Pane, pre Teba.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Som tak plný svojho hriechu,</p>
+        <p>pýcha je mi chorobou.</p>
+      </div>
+    </td>
+    <td>Sloha 6</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Viem, som tak tvrdý,</p>
+        <p>no ja túžim blízko stáť,</p>
+        <p>pri Tebe vzbĺknem plameňom.</p>
+      </div>
+    </td>
+    <td>Sloha 7</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Bez nádeje som tak sám,</p>
+        <p>bez vízie nič nevidím.</p>
+        <p>Priviň si ma bližšie</p>
+        <p>a zohrej ma.</p>
+      </div>
+    </td>
+    <td>Sloha 8</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Príď, urob ma slobodným.</p>
+      </div>
+    </td>
+    <td>Sloha 9</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>A ja horím, Pane, pre Teba.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Ty ľúbiš ma, Pán môj</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 213</h2>
+  <h3>Ty ľúbiš ma, Pán môj</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Dielom Tvojich rúk je</p>
+        <p>nebo, Zem, môj Boh.</p>
+        <p>Kto som ja, že túžiš</p>
+        <p>aj po mne, môj Boh.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Si mocný, v sláve prebývaš</p>
+        <p>a veľký je Tvoj majestát,</p>
+        <p>no predsa Ty sám</p>
+        <p>ku mne prichádzaš.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Predivné Tvoje skutky sú,</p>
+        <p>predivná Tvoja spása je.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Ty ľúbiš ma, Pán môj,</p>
+        <p>Ty ľúbiš ma, Boh môj.</p>
+        <p>Tvoja láska ku mne je</p>
+        <p>predivná a mocná.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Dielom Tvojich rúk je</p>
+        <p>každý tvor, môj Boh.</p>
+        <p>Údolia aj vrchy volajú,</p>
+        <p>môj Boh.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Tvoje dielo Teba uctieva,</p>
+        <p>Tvoju spásu v túžbe vyhliada,</p>
+        <p>Ty jediný si za nás život dal.</p>
+      </div>
+    </td>
+    <td>Sloha 6</td>
+  </tr>
+</table>
+
+</body>
+</html>

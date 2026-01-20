@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Kam sa všetci ponáhľame</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 79</h2>
+  <h3>Kam sa všetci ponáhľame</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Kam sa všetci ponáhľame,</p>
+        <p>v rukách šmýka sa nám celý svet.</p>
+        <p>Prečo stále hľadáš nádej</p>
+        <p>na takých miestach, kde jej niet?</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>V takých veciach, kde jej niet?</p>
+        <p>Prečo hľadáš?</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Každý z nás môže prísť</p>
+        <p>k Bohu taký, aký je.</p>
+        <p>Ak sa Mu dáš, On ťa zmení.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>On hriechy odpustí,</p>
+        <p>On dušu očistí,</p>
+        <p>On to rád urobí.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Viem, čo spievam, čo hrám,</p>
+        <p>všetko som to skúsil sám.</p>
+        <p>Dnes sa s Bohom zhováram</p>
+        <p>ako s verným priateľom.</p>
+      </div>
+    </td>
+    <td>Sloha 5</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>On je so mnou v dobrom zlom,</p>
+        <p>On je blízko.</p>
+      </div>
+    </td>
+    <td>Sloha 6</td>
+  </tr>
+</table>
+
+</body>
+</html>

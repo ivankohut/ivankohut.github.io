@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Vyvýšený</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 283</h2>
+  <h3>Vyvýšený</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Vyvýšený, svoj trón si v sláve mal.</p>
+        <p>Na smrť si šiel, sám seba si nám dal.</p>
+        <p>Syn jediný, čistý a nevinný,</p>
+        <p>niesol si kríž, bremeno našich vín.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>/: Všetku vládu, moc,</p>
+        <p>každé víťazstvo Ty máš. :/</p>
+      </div>
+    </td>
+    <td>Refrén 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Pán náš, hoden si úcty a slávy,</p>
+        <p>hoden si našich chvál, víťaz a kráľ.</p>
+        <p>Ježiš, úžasný v moci stále,</p>
+        <p>úžasné meno máš, víťaz a kráľ.</p>
+      </div>
+    </td>
+    <td>Refrén 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Máš v rukách moc,</p>
+        <p>hlásajúc Otcov plán.</p>
+        <p>Posielaš nás</p>
+        <p>byť svetlom v temnotách.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Zvíťazíme v Ňom krvou Baránkovou,</p>
+        <p>slovom svedectva, ktoré máme.</p>
+        <p>Zvíťazí každý v Ňom.</p>
+      </div>
+    </td>
+    <td>Prechod</td>
+  </tr>
+</table>
+
+</body>
+</html>

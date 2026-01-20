@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Pán Boh je Pastier môj</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 141</h2>
+  <h3>Pán Boh je Pastier môj</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Pán Boh je Pastier môj,</p>
+        <p>nič mi nebude chýbať.</p>
+        <p>Na pastvách zelených</p>
+        <p>dobrú pašu mi chystá.</p>
+      </div>
+      <div class="slide">
+        <p>K vodám tichým vodí,</p>
+        <p>dušu moju napája.</p>
+        <p>Cestou spravodlivou</p>
+        <p>kvôli sebe sprevádza.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Aj keby som dolinou šiel,</p>
+        <p>kde tôňa smrti svoj príbytok má,</p>
+        <p>ja nebudem sa zlého báť,</p>
+        <p>veď Ty si stále so mnou.</p>
+      </div>
+      <div class="slide">
+        <p>Tvoj prút a Tvoja palica</p>
+        <p>ma potešujú na mojich cestách</p>
+        <p>a pred mojimi nepriateľmi</p>
+        <p>mi bohatý stôl chystáš.</p>
+      </div>
+    </td>
+    <td>Refrén</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Olej pomazania</p>
+        <p>leješ na moju hlavu.</p>
+        <p>Pohár môj napĺňaš,</p>
+        <p>pohár môj preteká.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Dobré a milosť len</p>
+        <p>budú so mnou vždy kráčať.</p>
+        <p>V dome Hospodina</p>
+        <p>budem naveky bývať.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+</table>
+
+</body>
+</html>

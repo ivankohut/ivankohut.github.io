@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Viac</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 247</h2>
+  <h3>Viac</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Viac než vzduch mi chýba</p>
+        <p>Tvoja láska.</p>
+        <p>Viac než chlieb, o ktorom</p>
+        <p>hladný sníva.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Viac ako bláznivý svet</p>
+        <p>farebných reklám.</p>
+        <p>Viac ako vášnivý spev,</p>
+        <p>keď naplní chrám.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Viac než slová</p>
+        <p>dokážu riecť.</p>
+        <p>Viac než pieseň</p>
+        <p>v srdci zaznie.</p>
+      </div>
+    </td>
+    <td>Refrén 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Chýbaš mi viac,</p>
+        <p>(ľúbim Ťa viac)</p>
+        <p>než to čo svet dá.</p>
+      </div>
+    </td>
+    <td>Refrén 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Otče, chýbaš mi viac.</p>
+        <p>(ľúbim Ťa viac)</p>
+      </div>
+    </td>
+    <td>Refrén 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Viac než magnet kovy</p>
+        <p>priťahuje.</p>
+        <p>Viac než básnik rýmy</p>
+        <p>rád objavuje.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Viac ako slnečný lúč,</p>
+        <p>keď pohladí tvár.</p>
+        <p>Viac ako voľnosť vtákov,</p>
+        <p>keď vzlietnu k horám.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+</table>
+
+</body>
+</html>

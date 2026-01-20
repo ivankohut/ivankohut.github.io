@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>Cesta, pravda i život</title>
+  <style>
+    html {
+      margin: 20px;
+    }
+
+    input[type=checkbox]:checked ~ * .accordable p {
+      margin: 3ex 0 0;
+    }
+
+    label[for=show-accords] {
+      position: absolute;
+      left: 50px
+    }
+
+    #show-accords {
+      position: absolute;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    #header > * {
+      text-align: right;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .slide {
+      margin-bottom: 0.5em;
+    }
+
+    .slide:first-child {
+      margin-top: 0.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    td {
+      vertical-align: top;
+      border-top: 1px dotted black;
+    }
+
+    td:last-child {
+      font-size: x-large;
+      padding-top: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<label class="no-print" for="show-accords">Zobraziť priestor pre akordy</label>
+<input id="show-accords" class="no-print" type="checkbox" checked>
+<div id="header">
+  <h2>č. 20</h2>
+  <h3>Cesta, pravda i život</h3>
+  <h4>Chvály</h4>
+</div>
+<table>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>On zostúpil, aby nám</p>
+        <p>ukázal cestu.</p>
+        <p>On povedal, že pozná,</p>
+        <p>pozná pravdu.</p>
+      </div>
+    </td>
+    <td>Sloha 1</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>On prišiel, aby nám</p>
+        <p>rozdával život.</p>
+        <p>V Ňom sa naplnil</p>
+        <p>Abrahámovi daný sľub.</p>
+      </div>
+    </td>
+    <td>Sloha 2</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Keď som neposlušný,</p>
+        <p>On je verný.</p>
+        <p>Keď sa cítim opustený,</p>
+        <p>On ma navštívi.</p>
+      </div>
+    </td>
+    <td>Sloha 3</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="slide">
+        <p>Keď som nadšený, On</p>
+        <p>zdieľa so mnou radosť.</p>
+        <p>Našiel som cestu,</p>
+        <p>pravdu i život.</p>
+      </div>
+    </td>
+    <td>Sloha 4</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ježiš, drahý Pán,</p>
+        <p>najlepší priateľ,</p>
+        <p>akého mám.</p>
+      </div>
+    </td>
+    <td>Refrén 1</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Pred Ním sa skláňam,</p>
+        <p>Jemu chválu vzdávam.</p>
+        <p>Pred Ním sa skláňam,</p>
+        <p>veď On je môj Pán.</p>
+      </div>
+    </td>
+    <td>Refrén 2</td>
+  </tr>
+  <tr>
+    <td class="accordable">
+      <div class="slide">
+        <p>Ježiš je moja sloboda.</p>
+      </div>
+    </td>
+    <td>Refrén 3</td>
+  </tr>
+</table>
+
+</body>
+</html>
