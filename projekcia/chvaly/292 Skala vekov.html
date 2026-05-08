@@ -69,6 +69,19 @@
       padding-top: 1em;
       text-align: center;
     }
+
+    .opensong-section-name::before {
+      content: "\00a0\00a0\00a0\00a0\00a0(";
+    }
+
+    .opensong-section-name::after {
+      content: ")";
+    }
+
+    .opensong-section-name {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: smaller;
+    }
   </style>
 </head>
 <body>
@@ -112,7 +125,7 @@
         <p>odpusť hriech, znič jeho moc.</p>
       </div>
     </td>
-    <td>Sloha 1</td>
+    <td>Sloha 1 <span class="opensong-section-name">V1</span></td>
   </tr>
   <tr>
     <td>
@@ -125,7 +138,7 @@
         <p>– ku Tebe sa utiekam.</p>
       </div>
     </td>
-    <td>Sloha 2</td>
+    <td>Sloha 2 <span class="opensong-section-name">V2</span></td>
   </tr>
   <tr>
     <td>
@@ -138,7 +151,7 @@
         <p>Spasiteľu, spas, ma, spas!</p>
       </div>
     </td>
-    <td>Sloha 3</td>
+    <td>Sloha 3 <span class="opensong-section-name">V3</span></td>
   </tr>
   <tr>
     <td>
@@ -151,7 +164,7 @@
         <p>ukry ma a srdce stíš!</p>
       </div>
     </td>
-    <td>Sloha 4</td>
+    <td>Sloha 4 <span class="opensong-section-name">V4</span></td>
   </tr>
 </table>
 

@@ -69,6 +69,19 @@
       padding-top: 1em;
       text-align: center;
     }
+
+    .opensong-section-name::before {
+      content: "\00a0\00a0\00a0\00a0\00a0(";
+    }
+
+    .opensong-section-name::after {
+      content: ")";
+    }
+
+    .opensong-section-name {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: smaller;
+    }
   </style>
 </head>
 <body>
@@ -111,7 +124,7 @@
         <p>a dnes aj ty bdieš s Ním.</p>
       </div>
     </td>
-    <td>Sloha 1</td>
+    <td>Sloha 1 <span class="opensong-section-name">V1</span></td>
   </tr>
   <tr>
     <td>
@@ -123,7 +136,7 @@
         <p>si tak stále viac svoj.</p>
       </div>
     </td>
-    <td>Sloha 2</td>
+    <td>Sloha 2 <span class="opensong-section-name">V2</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -133,7 +146,7 @@
         <p>krásnych dní.</p>
       </div>
     </td>
-    <td>Refrén 1</td>
+    <td>Refrén 1 <span class="opensong-section-name">C1</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -144,7 +157,7 @@
         <p>tak ho vnútri maj.</p>
       </div>
     </td>
-    <td>Refrén 2</td>
+    <td>Refrén 2 <span class="opensong-section-name">C2</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -155,7 +168,7 @@
         <p>až do konca dní.</p>
       </div>
     </td>
-    <td>Refrén 3</td>
+    <td>Refrén 3 <span class="opensong-section-name">C3</span></td>
   </tr>
   <tr>
     <td>
@@ -167,7 +180,7 @@
         <p>On vie, čo s tým.</p>
       </div>
     </td>
-    <td>Sloha 3</td>
+    <td>Sloha 3 <span class="opensong-section-name">V3</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -179,7 +192,7 @@
         <p>až do konca dní.</p>
       </div>
     </td>
-    <td>Refrén 4</td>
+    <td>Refrén 4 <span class="opensong-section-name">C4</span></td>
   </tr>
 </table>
 

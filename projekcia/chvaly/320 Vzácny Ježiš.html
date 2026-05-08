@@ -69,6 +69,19 @@
       padding-top: 1em;
       text-align: center;
     }
+
+    .opensong-section-name::before {
+      content: "\00a0\00a0\00a0\00a0\00a0(";
+    }
+
+    .opensong-section-name::after {
+      content: ")";
+    }
+
+    .opensong-section-name {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: smaller;
+    }
   </style>
 </head>
 <body>
@@ -114,7 +127,7 @@
         <p>tým celkom si ma získal.</p>
       </div>
     </td>
-    <td>Sloha</td>
+    <td>Sloha <span class="opensong-section-name">V</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -126,7 +139,7 @@
         <p>si naveky Ty sám.</p>
       </div>
     </td>
-    <td>Predrefrén</td>
+    <td>Predrefrén <span class="opensong-section-name">P</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -141,7 +154,7 @@
         <p>lebo všetkým si Ty sám.</p>
       </div>
     </td>
-    <td>Refrén</td>
+    <td>Refrén <span class="opensong-section-name">C</span></td>
   </tr>
 </table>
 

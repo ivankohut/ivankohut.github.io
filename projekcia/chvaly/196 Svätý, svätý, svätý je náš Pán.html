@@ -69,6 +69,19 @@
       padding-top: 1em;
       text-align: center;
     }
+
+    .opensong-section-name::before {
+      content: "\00a0\00a0\00a0\00a0\00a0(";
+    }
+
+    .opensong-section-name::after {
+      content: ")";
+    }
+
+    .opensong-section-name {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: smaller;
+    }
   </style>
 </head>
 <body>
@@ -108,7 +121,7 @@
         <p>svätý je náš Boh všemohúci,</p>
       </div>
     </td>
-    <td>Sloha 1</td>
+    <td>Sloha 1 <span class="opensong-section-name">V1</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -117,7 +130,7 @@
         <p>Svätý, svätý, svätý je náš Pán.</p>
       </div>
     </td>
-    <td>Refrén 1</td>
+    <td>Refrén 1 <span class="opensong-section-name">C1</span></td>
   </tr>
   <tr>
     <td>
@@ -126,7 +139,7 @@
         <p>Ježiš je náš Boh všemohúci,</p>
       </div>
     </td>
-    <td>Sloha 2</td>
+    <td>Sloha 2 <span class="opensong-section-name">V2</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -135,7 +148,7 @@
         <p>Svätý, svätý, svätý je náš Pán.</p>
       </div>
     </td>
-    <td>Refrén 2</td>
+    <td>Refrén 2 <span class="opensong-section-name">C2</span></td>
   </tr>
   <tr>
     <td>
@@ -144,7 +157,7 @@
         <p>Chválu vzdajte Bohu svätému,</p>
       </div>
     </td>
-    <td>Sloha 3</td>
+    <td>Sloha 3 <span class="opensong-section-name">V3</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -153,7 +166,7 @@
         <p>Svätý, svätý, svätý je náš Pán.</p>
       </div>
     </td>
-    <td>Refrén 3</td>
+    <td>Refrén 3 <span class="opensong-section-name">C3</span></td>
   </tr>
 </table>
 

@@ -69,6 +69,19 @@
       padding-top: 1em;
       text-align: center;
     }
+
+    .opensong-section-name::before {
+      content: "\00a0\00a0\00a0\00a0\00a0(";
+    }
+
+    .opensong-section-name::after {
+      content: ")";
+    }
+
+    .opensong-section-name {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: smaller;
+    }
   </style>
 </head>
 <body>
@@ -114,7 +127,7 @@
         <p>Tvojmu srdcu dať.</p>
       </div>
     </td>
-    <td>Sloha 1</td>
+    <td>Sloha 1 <span class="opensong-section-name">V1</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -129,7 +142,7 @@
         <p>je všetko odhalené.</p>
       </div>
     </td>
-    <td>Predrefrén</td>
+    <td>Predrefrén <span class="opensong-section-name">P</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -146,7 +159,7 @@
         <p>chválu a česť, Ježiš.</p>
       </div>
     </td>
-    <td>Refrén</td>
+    <td>Refrén <span class="opensong-section-name">C</span></td>
   </tr>
   <tr>
     <td>
@@ -161,7 +174,7 @@
         <p>môjho žitia dych.</p>
       </div>
     </td>
-    <td>Sloha 2</td>
+    <td>Sloha 2 <span class="opensong-section-name">V2</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -172,7 +185,7 @@
         <p>viac ako pieseň, môj Boh.</p>
       </div>
     </td>
-    <td>Prechod 1</td>
+    <td>Prechod 1 <span class="opensong-section-name">B1</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -181,7 +194,7 @@
         <p>skúmaš hlbiny sŕdc.</p>
       </div>
     </td>
-    <td>Prechod 2</td>
+    <td>Prechod 2 <span class="opensong-section-name">B2</span></td>
   </tr>
 </table>
 

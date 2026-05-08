@@ -69,6 +69,19 @@
       padding-top: 1em;
       text-align: center;
     }
+
+    .opensong-section-name::before {
+      content: "\00a0\00a0\00a0\00a0\00a0(";
+    }
+
+    .opensong-section-name::after {
+      content: ")";
+    }
+
+    .opensong-section-name {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: smaller;
+    }
   </style>
 </head>
 <body>
@@ -112,7 +125,7 @@
         <p>čo by si mal rád.</p>
       </div>
     </td>
-    <td>Sloha 1</td>
+    <td>Sloha 1 <span class="opensong-section-name">V1</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -125,7 +138,7 @@
         <p>Ty vidíš, čo v srdci mám.</p>
       </div>
     </td>
-    <td>Predrefrén</td>
+    <td>Predrefrén <span class="opensong-section-name">P</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -136,7 +149,7 @@
         <p>si to jedine Ty, jedine Ty, Ježiš.</p>
       </div>
     </td>
-    <td>Refrén</td>
+    <td>Refrén <span class="opensong-section-name">C</span></td>
   </tr>
   <tr>
     <td>
@@ -149,7 +162,7 @@
         <p>každý dych je Tvoj.</p>
       </div>
     </td>
-    <td>Sloha 2</td>
+    <td>Sloha 2 <span class="opensong-section-name">V2</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -160,7 +173,7 @@
         <p>Ty vidíš, čo v srdci mám. :/</p>
       </div>
     </td>
-    <td>Prechod</td>
+    <td>Prechod <span class="opensong-section-name">B</span></td>
   </tr>
 </table>
 

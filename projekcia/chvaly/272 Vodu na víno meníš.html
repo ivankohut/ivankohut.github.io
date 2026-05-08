@@ -69,6 +69,19 @@
       padding-top: 1em;
       text-align: center;
     }
+
+    .opensong-section-name::before {
+      content: "\00a0\00a0\00a0\00a0\00a0(";
+    }
+
+    .opensong-section-name::after {
+      content: ")";
+    }
+
+    .opensong-section-name {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: smaller;
+    }
   </style>
 </head>
 <body>
@@ -109,7 +122,7 @@
         <p>nikto nie je ako Ty.</p>
       </div>
     </td>
-    <td>Sloha 1</td>
+    <td>Sloha 1 <span class="opensong-section-name">V1</span></td>
   </tr>
   <tr>
     <td>
@@ -119,7 +132,7 @@
         <p>nikto nie je ako Ty.</p>
       </div>
     </td>
-    <td>Sloha 2</td>
+    <td>Sloha 2 <span class="opensong-section-name">V2</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -135,7 +148,7 @@
         <p>si náš Pán.</p>
       </div>
     </td>
-    <td>Refrén</td>
+    <td>Refrén <span class="opensong-section-name">C</span></td>
   </tr>
   <tr>
     <td class="accordable">
@@ -146,7 +159,7 @@
         <p>kto môže stáť proti nám?</p>
       </div>
     </td>
-    <td>Prechod</td>
+    <td>Prechod <span class="opensong-section-name">B</span></td>
   </tr>
 </table>
 
