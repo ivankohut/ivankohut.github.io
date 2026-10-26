@@ -3,86 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Oslavuj Pána, oslavuj</title>
-  <style>
-    html {
-      margin: 20px;
-      font-family: "Liberation Serif", serif;
-      --selected-font-size: 24px;
-      --space-for-accords: 3ex;
-    }
-
-    @media print {
-      .no-print {
-        display: none !important;
-      }
-    }
-
-    #header {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-    }
-
-    #configuration {
-      vertical-align: top;
-    }
-
-    #song-coordinates {
-      text-align: right;
-    }
-
-    #song-coordinates > * {
-      text-align: right;
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    .accordable p {
-      margin: var(--space-for-accords) 0 0;
-    }
-
-    .slide {
-      margin-bottom: 0.5em;
-      font-size: var(--selected-font-size);
-    }
-
-    .slide:first-child {
-      margin-top: 0.5em;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1em;
-    }
-
-    td {
-      vertical-align: top;
-      border-top: 1px dotted black;
-    }
-
-    td:last-child {
-      font-size: larger;
-      padding-top: 1em;
-      text-align: center;
-    }
-
-    .opensong-section-name::before {
-      content: "\00a0\00a0\00a0\00a0\00a0(";
-    }
-
-    .opensong-section-name::after {
-      content: ")";
-    }
-
-    .opensong-section-name {
-      color: rgba(0, 0, 0, 0.4);
-      font-size: smaller;
-    }
-  </style>
+  <link rel="stylesheet" href="song.css">
 </head>
 <body>
 
@@ -97,15 +18,7 @@
         });
       </script>
     </div>
-    <div>
-      <label class="no-print" for="select-font-size">Veľkosť písma</label>
-      <input id="select-font-size" class="no-print" type="number" min="8" max="48" value="24">
-      <script>
-        document.getElementById('select-font-size').addEventListener('change', function () {
-          document.documentElement.style.setProperty('--selected-font-size', this.value + 'px');
-        });
-      </script>
-    </div>
+    <script src="fit-to-page.js"></script>
   </div>
   <div id="song-coordinates">
     <h2>č. 123</h2>
